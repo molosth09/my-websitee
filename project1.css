@@ -1,0 +1,91 @@
+body {
+    background-image: url("image/simple-checker.gif");
+}
+
+.Title {
+    font-size: 50px;
+    outline: 5px;
+    color: white;
+    font-family: 'Almarai';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 150px;
+    text-align: center;
+    outline: 5px;
+    outline-style: dashed;
+    border-radius: 10px;
+    position: relative;
+}
+
+.top_ribbon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background-color: rgb(2, 119, 189)
+}
+
+.Header1 {
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Chivo';
+    position: absolute;
+}
+
+.Header2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Chivo';
+    margin-left: 15%;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    margin-top: 0.5;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+
+.CSS-logo {
+    width: 25%;
+    float: left;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    transition: 1s;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 10%;
+
+}
+
+.CSS-logo:hover {
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+
+.paragraph-CSS {
+    font-size: 35px;
+    color: white;
+    font-family: 'Chivo';
+    margin-left: 40%;
+    width: 50%;
+}
+
+.container {
+    display: grid;
+}
